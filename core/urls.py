@@ -8,4 +8,5 @@ urlpatterns = [
     path('', include('pages.urls', namespace='pages')),
     path('listing/', include('listings.urls', namespace='listings')),
     path('realtors/', include('realtors.urls', namespace='realtors')),
+    path('accounts/', include('accounts.urls', namespace='accounts')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
