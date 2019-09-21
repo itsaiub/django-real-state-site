@@ -13,8 +13,11 @@
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <!-- LightBox -->
   <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-
-  <title>Real Estate</title>
+  <title>
+    {% block title %}
+      Real State
+    {% endblock title %}
+  </title>
 </head>
 <body>
   <!-- Top Bar -->

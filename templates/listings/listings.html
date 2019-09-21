@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% load humanize %}
+{% block title %}
+  Browse Property Listings - {{ block.super }}
+{% endblock title %}
 {% block content %}
-
     <section id="showcase-inner" class="py-5 text-white">
     <div class="container">
       <div class="row text-center">
